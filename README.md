@@ -1,6 +1,6 @@
 # portfolio
 
-My personal portfolio Made with vue.js.
+My personal portfolio Made with vue.js and tailwind.css.
 
 > Portfolio template heavily based on [Gilbert Ndresaj's portfolio](https://github.com/gilnd/portfolio).
 
