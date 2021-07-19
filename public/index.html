@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Parsa Esfahanian">
+    <meta name="msapplication-TileImage" content="<%= BASE_URL %>favicon.png">
+    <meta name="msapplication-TileColor" content="#152347">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="author" content="Parsa Esfahanian">
+    <meta name="keywords" content="Parsa Esfahanian, Parsa, Esfahanian">
+    <meta name="description" content="Parsa Esfahanian is a machine learning researcher and backend developer.">
+    <link rel="icon" href="<%= BASE_URL %>favicon.png">
+    <link rel="manifest" href="<%= BASE_URL %>manifest.json">
+    <title>Parsa Esfahanian</title>
+</head>
+
+<body>
+    <noscript>
+        <strong>I'm sorry but this portfolio doesn't work properly without JavaScript enabled. Please enable it to
+            continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('<%= BASE_URL %>service-worker.js');
+            });
+        }
+    </script>
+</body>
+
+</html>
