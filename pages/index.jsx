@@ -1,8 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import { useState } from "react";
-import { BsFillMoonStarsFill } from "react-icons/bs";
 
 import Hero from "../sections/hero";
 

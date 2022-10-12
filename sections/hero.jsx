@@ -1,5 +1,5 @@
-import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
+import { BsFillMoonStarsFill } from "react-icons/bs";
 
 export default function Hero() {
     const [darkMode, setDarkMode] = useState(false);
