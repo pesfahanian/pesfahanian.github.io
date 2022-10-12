@@ -2,13 +2,16 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Inspired by [this portfolio](https://github.com/developedbyed/react-portofolio-with-tailwind).
+### Utilized Tools:
+
+-   [Tailwind CSS](https://tailwindcss.com/)
+-   [`react-scroll-to-top`](https://github.com/HermanNygaard/react-scroll-to-top)
 
 ---
 
 ## Getting Started
 
-Run the development server:
+Install dependencies and run the development server:
 
 ```bash
 yarn
