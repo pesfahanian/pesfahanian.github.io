@@ -1,22 +1,10 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import { useState } from "react";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import { useState } from "react";
 
-export default function Home() {
+export default function Hero() {
     const [darkMode, setDarkMode] = useState(false);
     return (
         <div className={darkMode ? "dark" : ""}>
-            <Head>
-                <title>Parsa Esfahanian</title>
-                <meta
-                    name="Parsa Esfahanian Portflio"
-                    content="Parsa Esfahanian Portflio"
-                />
-                <link rel="icon" href="/favicon.png" />
-            </Head>
-
             <section class="flex items-center justify-center min-h-screen bg-white dark:bg-blue-drm">
                 <div class="mx-auto max-w-auto">
                     <div class="text-center">
