@@ -1,4 +1,11 @@
-export default function Exp({ company, location, position, type, duration }) {
+export default function Exp({
+    company,
+    website,
+    location,
+    position,
+    type,
+    duration,
+}) {
     return (
         <div
             class="relative
@@ -10,7 +17,7 @@ export default function Exp({ company, location, position, type, duration }) {
                    transition
                    ease-linear
                    bg-slate-200
-                   hover:-translate-y-1
+                   hover:scale-105
                    hover:bg-slate-400
                    dark:bg-secondary
                    dark:hover:bg-gray
@@ -18,13 +25,14 @@ export default function Exp({ company, location, position, type, duration }) {
         >
             <div class="flex flex-col justify-between lg:flex-row">
                 <span class="mr-4">
-                    <h1
+                    <a
+                        href={website}
                         class="text-2xl
                                font-bold
                                text-red"
                     >
                         {company}
-                    </h1>
+                    </a>
                 </span>
                 <span class="inline-block align-middle lg:pt-2">
                     <h1
