@@ -1,5 +1,5 @@
-import Head from "next/head";
 import { useState } from "react";
+import Head from "next/head";
 
 import ScrollToTop from "react-scroll-to-top";
 
@@ -23,7 +23,7 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.png" />
             </Head>
-            
+
             <Hero />
             <Experience />
             <Contact darkMode={darkMode} setDarkMode={setDarkMode} />

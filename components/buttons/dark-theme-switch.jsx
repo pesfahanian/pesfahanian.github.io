@@ -1,4 +1,4 @@
-import { BsSunFill, BsMoonFill } from "react-icons/bs";
+import { BsMoonFill, BsSunFill } from "react-icons/bs";
 
 export default function DarkThemeSwitchButton({ darkMode, setDarkMode }) {
     return (

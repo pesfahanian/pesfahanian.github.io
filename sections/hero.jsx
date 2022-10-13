@@ -38,7 +38,14 @@ export default function Hero() {
                         </p>
                     </div>
 
-                    <div class="flex flex-row mt-8 items-center justify-center lg:flex-row">
+                    <div
+                        class="flex
+                               flex-row
+                               mt-8
+                               items-center
+                               justify-center
+                               lg:flex-row"
+                    >
                         <GoTo href={"#"} text={"About"} />
                         <GoTo href={"#"} text={"Experience"} />
                         <GoTo href={"#"} text={"Publications"} />
