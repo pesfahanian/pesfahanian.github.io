@@ -20,8 +20,7 @@ export default function Exp({
                    hover:scale-105
                    hover:bg-slate-400
                    dark:bg-secondary
-                   dark:hover:bg-gray
-                   lg:px-8"
+                   dark:hover:bg-gray"
         >
             <div class="flex flex-col justify-between lg:flex-row">
                 <span class="mr-4">
@@ -50,7 +49,7 @@ export default function Exp({
                 <span class="mr-4">
                     <div class="flex flex-row">
                         <h1
-                            class="mr-2
+                            class="mr-1
                                    text-1xl
                                    font-bold
                                    text-primary
@@ -60,7 +59,7 @@ export default function Exp({
                         </h1>
                         <h1 class="text-teal">|</h1>
                         <h1
-                            class="ml-2
+                            class="ml-1
                                    text-1xl
                                    font-medium
                                    text-slate-500"
