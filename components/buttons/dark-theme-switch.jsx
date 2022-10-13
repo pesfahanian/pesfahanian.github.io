@@ -1,4 +1,4 @@
-import { BsFillMoonStarsFill } from "react-icons/bs";
+import { BsSunFill, BsMoonFill } from "react-icons/bs";
 
 export default function DarkThemeSwitchButton({ darkMode, setDarkMode }) {
     return (
@@ -16,17 +16,17 @@ export default function DarkThemeSwitchButton({ darkMode, setDarkMode }) {
                    items-center
                    bg-white
                    border
-                   border-blue-drm
+                   border-primary
                    rounded-[7px]
-                   text-blue-drm
+                   text-primary
                    text-1xl
-                   hover:bg-green-drm
-                   dark:bg-blue-drm
+                   hover:bg-teal
+                   dark:bg-primary
                    dark:border-white
                    dark:text-white
-                   dark:hover:bg-green-drm"
+                   dark:hover:bg-teal"
         >
-            <BsFillMoonStarsFill />
+            {darkMode ? <BsSunFill /> : <BsMoonFill />}
         </button>
     );
 }

@@ -9,17 +9,10 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                blue: {
-                    light: "#6CD0FF",
-                    mid: "#576182",
-                    dark: "#1C2E4C",
-                    drm: "#0B0E11",
-                },
-                green: {
-                    drm: "#00D1B2",
-                    light: "#1FC5A8",
-                },
-                gray: "#151A21",
+                primary: "#0B0E11",
+                secondary: "#151A21",
+                gray: "#2C3645",
+                teal: "#00D1B2",
                 red: "#FD4D4D",
             },
         },
