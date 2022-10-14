@@ -4,9 +4,10 @@ import SectionHeader from "../components/section-header";
 
 import { experiences } from "../store/store";
 
-export default function Experience() {
+export default function Experience({ id }) {
     return (
         <Section
+            id={id}
             content={
                 <div>
                     <SectionHeader title={"Experience"} />

@@ -4,9 +4,10 @@ import SectionHeader from "../components/section-header";
 
 import { contact } from "../store/store";
 
-export default function Publications() {
+export default function Publications({ id }) {
     return (
         <Section
+            id={id}
             content={
                 <div>
                     <SectionHeader title={"Contact"} />

@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import Head from "next/head";
 
 import ScrollToTop from "react-scroll-to-top";
@@ -13,6 +14,7 @@ import Publications from "../sections/publications";
 
 export default function Home() {
     const [darkMode, setDarkMode] = useState(true);
+
     return (
         <div className={darkMode ? "dark" : ""}>
             <Head>
@@ -25,9 +27,9 @@ export default function Home() {
             </Head>
 
             <Hero />
-            <Experience />
-            <Publications />
-            <Contact />
+            <Experience id={"experience"} />
+            <Publications id={"publications"} />
+            <Contact id={"contact"} />
 
             <DarkThemeSwitchButton
                 darkMode={darkMode}

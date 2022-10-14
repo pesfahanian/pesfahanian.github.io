@@ -1,6 +1,7 @@
-export default function Section({ content }) {
+export default function Section({ id, content }) {
     return (
         <section
+            id={id}
             class="flex
                    items-center
                    justify-center

@@ -1,4 +1,4 @@
-export default function GoTo({ href, text }) {
+export default function GoTo({ id, text }) {
     return (
         <div
             class="px-2
@@ -6,7 +6,14 @@ export default function GoTo({ href, text }) {
                    text-slate-500
                    lg:text-2xl"
         >
-            <a class="hover:text-red" href={href}>
+            <a
+                onClick={() =>
+                    document
+                        .getElementById(id)
+                        .scrollIntoView({ behavior: "smooth" })
+                }
+                class="cursor-pointer hover:text-red"
+            >
                 {text}
             </a>
         </div>
