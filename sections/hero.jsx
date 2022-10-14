@@ -46,7 +46,7 @@ export default function Hero() {
                                justify-center
                                lg:flex-row"
                     >
-                        {/* <GoTo href={"#"} text={"About"} /> */}
+                        <GoTo id={"about"} text={"About"} />
                         <GoTo id={"experience"} text={"Experience"} />
                         <GoTo id={"publications"} text={"Publications"} />
                         <GoTo id={"contact"} text={"Contact"} />

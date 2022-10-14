@@ -7,6 +7,7 @@ import ScrollToTop from "react-scroll-to-top";
 import DarkThemeSwitchButton from "../components/buttons/dark-theme-switch";
 import ScrollToTopButton from "../components/buttons/scroll-to-top";
 
+import About from "../sections/about";
 import Contact from "../sections/contact";
 import Experience from "../sections/experience";
 import Hero from "../sections/hero";
@@ -27,6 +28,7 @@ export default function Home() {
             </Head>
 
             <Hero />
+            <About id={"about"} />
             <Experience id={"experience"} />
             <Publications id={"publications"} />
             <Contact id={"contact"} />
