@@ -8,7 +8,6 @@ import ScrollToTopButton from "../components/buttons/scroll-to-top";
 
 import Contact from "../sections/contact";
 import Experience from "../sections/experience";
-import Footer from "../sections/footer";
 import Hero from "../sections/hero";
 import Publications from "../sections/publications";
 
@@ -28,8 +27,7 @@ export default function Home() {
             <Hero />
             <Experience />
             <Publications />
-            <Contact darkMode={darkMode} setDarkMode={setDarkMode} />
-            <Footer darkMode={darkMode} setDarkMode={setDarkMode} />
+            <Contact />
 
             <DarkThemeSwitchButton
                 darkMode={darkMode}
