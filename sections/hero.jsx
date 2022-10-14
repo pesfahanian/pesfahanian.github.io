@@ -20,16 +20,16 @@ export default function Hero() {
                         </h1>
                         <p
                             class="flex
-                              flex-col
-                              mt-8
-                              items-center
-                              justify-center
-                              text-2xl
-                              text-teal
-                              dark:text-white
-                              lg:divide-x
-                              lg:flex-row
-                              lg:text-3xl"
+                                   flex-col
+                                   mt-8
+                                   items-center
+                                   justify-center
+                                   text-2xl
+                                   text-teal
+                                   dark:text-white
+                                   lg:divide-x
+                                   lg:flex-row
+                                   lg:text-3xl"
                         >
                             <span class="px-2">Backend Developer</span>
                             <span class="px-2">

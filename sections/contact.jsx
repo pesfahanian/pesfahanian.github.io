@@ -1,16 +1,29 @@
-export default function Contact({ darkMode, setDarkMode }) {
+import Con from "../components/contact";
+import Section from "../components/section";
+import SectionHeader from "../components/section-header";
+
+import { contact } from "../store/store";
+
+export default function Publications() {
     return (
-        <section class="flex items-center justify-center min-h-screen bg-white dark:bg-primary">
-            <div class="mx-auto w-6/12">
-                <hr class="my-6 border-teal" />
-                <div class="text-sm text-primary dark:text-white">
-                    Developed by{" "}
-                    <span class="font-black text-teal">
-                        Parsa Esfahanian
-                    </span>
-                    .
+        <Section
+            content={
+                <div>
+                    <SectionHeader title={"Contact"} />
+
+                    <div class="flex flex-col gap-4 lg:flex-row">
+                        {contact.map((item, index) => {
+                            return (
+                                <Con
+                                    name={item.name}
+                                    link={item.link}
+                                    icon={item.icon}
+                                />
+                            );
+                        })}
+                    </div>
                 </div>
-            </div>
-        </section>
+            }
+        />
     );
 }

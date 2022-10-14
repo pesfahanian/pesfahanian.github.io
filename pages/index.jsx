@@ -10,6 +10,7 @@ import Contact from "../sections/contact";
 import Experience from "../sections/experience";
 import Footer from "../sections/footer";
 import Hero from "../sections/hero";
+import Publications from "../sections/publications";
 
 export default function Home() {
     const [darkMode, setDarkMode] = useState(true);
@@ -26,6 +27,7 @@ export default function Home() {
 
             <Hero />
             <Experience />
+            <Publications />
             <Contact darkMode={darkMode} setDarkMode={setDarkMode} />
             <Footer darkMode={darkMode} setDarkMode={setDarkMode} />
 
