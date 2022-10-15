@@ -1,6 +1,8 @@
+import Head from "next/head";
+
 import { useState } from "react";
 
-import Head from "next/head";
+import { NextSeo } from "next-seo";
 
 import ScrollToTop from "react-scroll-to-top";
 
@@ -13,17 +15,15 @@ import Experience from "../sections/experience";
 import Hero from "../sections/hero";
 import Publications from "../sections/publications";
 
+import SEO from "../next-seo.config";
+
 export default function Home() {
     const [darkMode, setDarkMode] = useState(true);
 
     return (
         <div className={darkMode ? "dark" : ""}>
+            <NextSeo {...SEO} />
             <Head>
-                <title>Parsa Esfahanian</title>
-                <meta
-                    name="Parsa Esfahanian Portflio"
-                    content="Parsa Esfahanian Portflio"
-                />
                 <link rel="icon" href="/favicon.png" />
             </Head>
 
