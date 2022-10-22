@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function PageNotFound() {
     return (
         // Taken from https://tailwindcomponents.com/component/404-page-not-found.
@@ -19,9 +21,10 @@ export default function PageNotFound() {
                 Page Not Found!
             </div>
             <button class="mt-5">
-                <a href="/" class="relative inline-block text-sm font-medium text-teal">
-                    <span
-                        class="
+                <Link href="/">
+                    <a class="relative inline-block text-sm font-medium text-teal">
+                        <span
+                            class="
                             relative
                             block
                             px-8
@@ -33,10 +36,11 @@ export default function PageNotFound() {
                             hover:bg-teal
                             hover:text-primary
                         "
-                    >
-                        Home
-                    </span>
-                </a>
+                        >
+                            Home
+                        </span>
+                    </a>
+                </Link>
             </button>
         </main>
     );
