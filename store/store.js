@@ -1,4 +1,4 @@
-import { BsFillEnvelopeFill, BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsFillEnvelopeFill, BsGithub, BsGoogle, BsLinkedin } from "react-icons/bs";
 
 const experiences = [
     {
@@ -106,6 +106,11 @@ const socials = [
         name: "LinkedIn",
         link: "http://www.linkedin.com/in/parsa-esfahanian",
         icon: <BsLinkedin />,
+    },
+    {
+        name: "Google Scholar",
+        link: "https://scholar.google.com/citations?user=wiwJd8oAAAAJ&hl=en",
+        icon: <BsGoogle />,
     },
 ];
 
