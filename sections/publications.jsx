@@ -1,4 +1,4 @@
-import Pub from "../components/publication";
+import Publication from "../components/publication";
 import Section from "../components/section";
 import SectionHeader from "../components/section-header";
 
@@ -14,7 +14,7 @@ export default function Publications({ id }) {
 
                     {publications.map((item, index) => {
                         return (
-                            <Pub
+                            <Publication
                                 name={item.name}
                                 paper={item.paper}
                                 journal={item.journal}

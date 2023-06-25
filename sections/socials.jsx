@@ -1,4 +1,4 @@
-import _Socials from "../components/socials";
+import Social from "../components/social";
 import Section from "../components/section";
 import SectionHeader from "../components/section-header";
 
@@ -15,7 +15,7 @@ export default function Socials({ id }) {
                     <div class="flex flex-col gap-4 lg:flex-row">
                         {socials.map((item, index) => {
                             return (
-                                <_Socials
+                                <Social
                                     name={item.name}
                                     link={item.link}
                                     icon={item.icon}

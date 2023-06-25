@@ -1,4 +1,4 @@
-export default function Exp({
+export default function Experience({
     company,
     website,
     location,

@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import Section from "../components/section";
 import SectionHeader from "../components/section-header";
 
@@ -66,22 +64,15 @@ export default function About({ id }) {
                                             !
                                         </h2>
                                         <p class="mb-2">
-                                            I graduated with a Bachelor of
+                                            I have a Bachelor of
                                             Science in in Applied Mathematics
                                             and a Mater of Science in Computer
                                             Science.
                                         </p>
                                         <p class="mb-2">
                                             {" "}
-                                            I am currently a full-time Backend
-                                            Developer at{" "}
-                                            <a
-                                                href="chapterpitch.com"
-                                                class="italic text-[#8c49f7] hover:text-teal"
-                                            >
-                                                ChapterPitch.com
-                                            </a>
-                                            . Some of the technologies that I
+                                            I am a Backend Developer currently in between projects.
+                                            Some of the technologies that I
                                             work with are Python, Django,
                                             FastAPI, Celery, PostgreSQL,
                                             MongoDB, RabbitMQ, Redis, and

@@ -1,4 +1,4 @@
-export default function Pub({ name, paper, journal, website }) {
+export default function Publication({ name, paper, journal, website }) {
     return (
         <div
             class="relative

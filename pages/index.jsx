@@ -11,7 +11,7 @@ import ScrollToTopButton from "../components/buttons/scroll-to-top";
 
 import About from "../sections/about";
 import Socials from "../sections/socials";
-import Experience from "../sections/experience";
+import Experiences from "../sections/experiences";
 import Hero from "../sections/hero";
 import Publications from "../sections/publications";
 
@@ -29,7 +29,7 @@ export default function Home() {
 
             <Hero />
             <About id={"about"} />
-            <Experience id={"experience"} />
+            <Experiences id={"experience"} />
             <Publications id={"publications"} />
             <Socials id={"socials"} />
 

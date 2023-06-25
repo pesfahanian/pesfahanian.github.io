@@ -2,20 +2,20 @@ import { BsFillEnvelopeFill, BsGithub, BsGoogle, BsLinkedin } from "react-icons/
 
 const experiences = [
     {
-        company: "Chapter One Ventures",
-        website: "https://chapteroneventure.com/",
-        location: "Tehran, Iran",
-        position: "Senior Backend Developer",
-        type: "Full-Time",
-        duration: "September 2021 - Present",
-    },
-    {
         company: "Institute for Research in Fundamental Sciences (IPM)",
         website: "http://www.ipm.ac.ir/",
         location: "Tehran, Iran",
         position: "Machine Learning Researcher",
         type: "Part-Time",
         duration: "March 2018 - Present",
+    },
+    {
+        company: "Chapter One Ventures",
+        website: "https://chapteroneventure.com/",
+        location: "Tehran, Iran",
+        position: "Senior Backend Developer",
+        type: "Full-Time",
+        duration: "September 2021 - March 2023",
     },
     {
         company: "YAS Group",
