@@ -1,4 +1,4 @@
-export default function Con({ name, link, icon }) {
+export default function _Socials({ name, link, icon }) {
     return (
         <div class="grow">
             <a href={link}>

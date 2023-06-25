@@ -10,7 +10,7 @@ import DarkThemeSwitchButton from "../components/buttons/dark-theme-switch";
 import ScrollToTopButton from "../components/buttons/scroll-to-top";
 
 import About from "../sections/about";
-import Contact from "../sections/contact";
+import Socials from "../sections/socials";
 import Experience from "../sections/experience";
 import Hero from "../sections/hero";
 import Publications from "../sections/publications";
@@ -31,7 +31,7 @@ export default function Home() {
             <About id={"about"} />
             <Experience id={"experience"} />
             <Publications id={"publications"} />
-            <Contact id={"contact"} />
+            <Socials id={"socials"} />
 
             <DarkThemeSwitchButton
                 darkMode={darkMode}

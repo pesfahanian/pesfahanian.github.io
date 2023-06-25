@@ -91,7 +91,7 @@ const publications = [
     },
 ];
 
-const contact = [
+const socials = [
     {
         name: "pesfahanian96@gmail.com",
         link: "mailto:pesfahanian96@gmail.com",
@@ -112,5 +112,5 @@ const contact = [
 module.exports = {
     experiences,
     publications,
-    contact,
+    socials,
 };
