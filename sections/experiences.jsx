@@ -1,10 +1,10 @@
-import Exp from "../components/experience";
+import Experience from "../components/experience";
 import Section from "../components/section";
 import SectionHeader from "../components/section-header";
 
 import { experiences } from "../store/store";
 
-export default function Experience({ id }) {
+export default function Experiences({ id }) {
     return (
         <Section
             id={id}
@@ -14,7 +14,7 @@ export default function Experience({ id }) {
 
                     {experiences.map((item, index) => {
                         return (
-                            <Exp
+                            <Experience
                                 company={item.company}
                                 website={item.website}
                                 location={item.location}

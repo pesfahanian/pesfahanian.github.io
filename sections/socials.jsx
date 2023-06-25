@@ -1,21 +1,21 @@
-import Con from "../components/contact";
+import Social from "../components/social";
 import Section from "../components/section";
 import SectionHeader from "../components/section-header";
 
-import { contact } from "../store/store";
+import { socials } from "../store/store";
 
-export default function Publications({ id }) {
+export default function Socials({ id }) {
     return (
         <Section
             id={id}
             content={
                 <div>
-                    <SectionHeader title={"Contact"} />
+                    <SectionHeader title={"Socials"} />
 
                     <div class="flex flex-col gap-4 lg:flex-row">
-                        {contact.map((item, index) => {
+                        {socials.map((item, index) => {
                             return (
-                                <Con
+                                <Social
                                     name={item.name}
                                     link={item.link}
                                     icon={item.icon}

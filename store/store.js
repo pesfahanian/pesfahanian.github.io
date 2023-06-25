@@ -1,14 +1,6 @@
-import { BsFillEnvelopeFill, BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsFillEnvelopeFill, BsGithub, BsGoogle, BsLinkedin } from "react-icons/bs";
 
 const experiences = [
-    {
-        company: "Chapter One Ventures",
-        website: "https://chapteroneventure.com/",
-        location: "Tehran, Iran",
-        position: "Senior Backend Developer",
-        type: "Full-Time",
-        duration: "September 2021 - Present",
-    },
     {
         company: "Institute for Research in Fundamental Sciences (IPM)",
         website: "http://www.ipm.ac.ir/",
@@ -16,6 +8,14 @@ const experiences = [
         position: "Machine Learning Researcher",
         type: "Part-Time",
         duration: "March 2018 - Present",
+    },
+    {
+        company: "Chapter One Ventures",
+        website: "https://chapteroneventure.com/",
+        location: "Tehran, Iran",
+        position: "Senior Backend Developer",
+        type: "Full-Time",
+        duration: "September 2021 - March 2023",
     },
     {
         company: "YAS Group",
@@ -91,7 +91,7 @@ const publications = [
     },
 ];
 
-const contact = [
+const socials = [
     {
         name: "pesfahanian96@gmail.com",
         link: "mailto:pesfahanian96@gmail.com",
@@ -107,10 +107,15 @@ const contact = [
         link: "http://www.linkedin.com/in/parsa-esfahanian",
         icon: <BsLinkedin />,
     },
+    {
+        name: "Google Scholar",
+        link: "https://scholar.google.com/citations?user=wiwJd8oAAAAJ&hl=en",
+        icon: <BsGoogle />,
+    },
 ];
 
 module.exports = {
     experiences,
     publications,
-    contact,
+    socials,
 };
