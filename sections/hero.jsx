@@ -49,6 +49,7 @@ export default function Hero() {
                         <GoTo id={"about"} text={"About"} />
                         <GoTo id={"experience"} text={"Experience"} />
                         <GoTo id={"publications"} text={"Publications"} />
+                        <GoTo id={"tech"} text={"Tech"} />
                         <GoTo id={"socials"} text={"Socials"} />
                     </div>
                 </div>

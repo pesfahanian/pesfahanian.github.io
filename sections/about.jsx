@@ -64,23 +64,22 @@ export default function About({ id }) {
                                             !
                                         </h2>
                                         <p class="mb-2">
-                                            I have a Bachelor of
-                                            Science in in Applied Mathematics
-                                            and a Mater of Science in Computer
-                                            Science.
+                                            I have a Bachelor of Science in in
+                                            Applied Mathematics and a Mater of
+                                            Science in Computer Science.
                                         </p>
                                         <p class="mb-2">
                                             {" "}
-                                            I am a Backend Developer currently in between projects.
-                                            Some of the technologies that I
-                                            work with are Python, Django,
-                                            FastAPI, Celery, PostgreSQL,
-                                            MongoDB, RabbitMQ, Redis, and
-                                            Docker.
+                                            I am a Backend Developer currently
+                                            in between projects. Some of the
+                                            technologies that I work with are
+                                            Python, Django, FastAPI, Celery,
+                                            PostgreSQL, MongoDB, RabbitMQ,
+                                            Redis, and Docker.
                                         </p>
                                         <p class="mb-2">
                                             {" "}
-                                            I am also a part-time Machine
+                                            I spent 5 years as a Machine
                                             Learning Researcher focusing on
                                             Medical Imaging at the{" "}
                                             <a
@@ -96,8 +95,8 @@ export default function About({ id }) {
                                         </p>
                                         <p class="mb-2">
                                             {" "}
-                                            I play the Electric Guitar and
-                                            dabble in Crypto in my free time.
+                                            I play the Electric Guitar and Piano
+                                            in my free time.
                                         </p>
                                     </div>
                                 </div>

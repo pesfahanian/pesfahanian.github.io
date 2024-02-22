@@ -14,6 +14,7 @@ import Socials from "../sections/socials";
 import Experiences from "../sections/experiences";
 import Hero from "../sections/hero";
 import Publications from "../sections/publications";
+import Tech from "../sections/tech";
 
 import SEO from "../next-seo.config";
 
@@ -31,6 +32,7 @@ export default function Home() {
             <About id={"about"} />
             <Experiences id={"experience"} />
             <Publications id={"publications"} />
+            <Tech id={"tech"} />
             <Socials id={"socials"} />
 
             <DarkThemeSwitchButton

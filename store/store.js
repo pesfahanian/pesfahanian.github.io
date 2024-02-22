@@ -1,17 +1,25 @@
-import { BsFillEnvelopeFill, BsGithub, BsGoogle, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsGoogle } from "react-icons/bs";
 
 const experiences = [
     {
-        company: "Institute for Research in Fundamental Sciences (IPM)",
-        website: "http://www.ipm.ac.ir/",
+        company: "SnappFood",
+        website: "https://snappfood.ir/",
         location: "Tehran, Iran",
-        position: "Machine Learning Researcher",
-        type: "Part-Time",
-        duration: "March 2018 - Present",
+        position: "Senior Backend Developer",
+        type: "Full-Time",
+        duration: "March 2023 - Present",
     },
     {
-        company: "Chapter One Ventures",
-        website: "https://chapteroneventure.com/",
+        company: "Tipax",
+        website: "https://tipaxco.com/",
+        location: "Tehran, Iran",
+        position: "Data Analyst",
+        type: "Contract",
+        duration: "August 2023 - Present",
+    },
+    {
+        company: "Zarrino",
+        website: "https://zarrino.io/",
         location: "Tehran, Iran",
         position: "Senior Backend Developer",
         type: "Full-Time",
@@ -25,14 +33,7 @@ const experiences = [
         type: "Full-Time",
         duration: "December 2020 - September 2021",
     },
-    {
-        company: "MetaOptima Technology Inc.",
-        website: "https://www.metaoptima.com/",
-        location: "Vancouver, Canada",
-        position: "Research Intern",
-        type: "Remote Internship",
-        duration: "September 2019 - October 2020",
-    },
+
     {
         company: "Logistic Bazaar",
         website: "https://itlogisticbazaar.ir/",
@@ -48,6 +49,22 @@ const experiences = [
         position: "Network Engineer",
         type: "Internship",
         duration: "June 2017 - August 2017",
+    },
+    {
+        company: "Institute for Research in Fundamental Sciences (IPM)",
+        website: "http://www.ipm.ac.ir/",
+        location: "Tehran, Iran",
+        position: "Machine Learning Researcher",
+        type: "Part-Time",
+        duration: "March 2018 - March 2023",
+    },
+    {
+        company: "MetaOptima Technology Inc.",
+        website: "https://www.metaoptima.com/",
+        location: "Vancouver, Canada",
+        position: "Researcher",
+        type: "Remote Internship",
+        duration: "September 2019 - October 2020",
     },
 ];
 
@@ -91,22 +108,220 @@ const publications = [
     },
 ];
 
-const socials = [
+const tech = [
     {
-        name: "pesfahanian96@gmail.com",
-        link: "mailto:pesfahanian96@gmail.com",
-        icon: <BsFillEnvelopeFill />,
+        name: "Linux",
+        alt: "linux",
+        filePath: "logos/linux.svg",
+        url: "https://www.linux.org/",
     },
+    {
+        name: "Git",
+        alt: "git",
+        filePath: "logos/git.svg",
+        url: "https://git-scm.com/",
+    },
+    {
+        name: "Go",
+        alt: "go",
+        filePath: "logos/go.svg",
+        url: "https://golang.org/",
+    },
+    {
+        name: "Python",
+        alt: "python",
+        filePath: "logos/python.svg",
+        url: "https://www.python.org/",
+    },
+    {
+        name: "JavaScript",
+        alt: "javascript",
+        filePath: "logos/javascript.svg",
+        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    },
+    {
+        name: "TypeScript",
+        alt: "typescript",
+        filePath: "logos/typescript.svg",
+        url: "https://www.typescriptlang.org/",
+    },
+    {
+        name: "HTML5",
+        alt: "html5",
+        filePath: "logos/html5.svg",
+        url: "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5",
+    },
+    {
+        name: "CSS",
+        alt: "css",
+        filePath: "logos/css.svg",
+        url: "https://www.w3.org/Style/CSS/",
+    },
+    // ---------------------------------------------------
+    {
+        name: "PostgreSQL",
+        alt: "postgresql",
+        filePath: "logos/postgresql.svg",
+        url: "https://www.postgresql.org/",
+    },
+    {
+        name: "MongoDB",
+        alt: "mongodb",
+        filePath: "logos/mongodb.svg",
+        url: "https://www.mongodb.com/",
+    },
+    {
+        name: "Elasticsearch",
+        alt: "elasticsearch",
+        filePath: "logos/elasticsearch.svg",
+        url: "https://www.elastic.co/elasticsearch/",
+    },
+    {
+        name: "Kibana",
+        alt: "kibana",
+        filePath: "logos/kibana.svg",
+        url: "https://www.elastic.co/kibana/",
+    },
+    {
+        name: "Neo4j",
+        alt: "neo4j",
+        filePath: "logos/neo4j.svg",
+        url: "https://neo4j.com/",
+    },
+    {
+        name: "Redis",
+        alt: "redis",
+        filePath: "logos/redis.svg",
+        url: "https://redis.io/",
+    },
+    {
+        name: "RabbitMQ",
+        alt: "rabbitmq",
+        filePath: "logos/rabbitmq.svg",
+        url: "https://rabbitmq.com/",
+    },
+    {
+        name: "MinIO",
+        alt: "minio",
+        filePath: "logos/minio.svg",
+        url: "https://min.io/",
+    },
+    // ---------------------------------------------------
+    {
+        name: "Django",
+        alt: "django",
+        filePath: "logos/django.svg",
+        url: "https://www.djangoproject.com/",
+    },
+    {
+        name: "FastAPI",
+        alt: "fastapi",
+        filePath: "logos/fastapi.svg",
+        url: "https://fastapi.tiangolo.com/",
+    },
+    {
+        name: "PyTorch",
+        alt: "pytorch",
+        filePath: "logos/pytorch.svg",
+        url: "https://pytorch.org/",
+    },
+    {
+        name: "TensorFlow",
+        alt: "tensorflow",
+        filePath: "logos/tensorflow.svg",
+        url: "https://www.tensorflow.org/",
+    },
+    {
+        name: "OpenCV",
+        alt: "opencv",
+        filePath: "logos/opencv.svg",
+        url: "https://opencv.org/",
+    },
+    {
+        name: "NumPy",
+        alt: "numpy",
+        filePath: "logos/numpy.svg",
+        url: "https://numpy.org/",
+    },
+    {
+        name: "Pandas",
+        alt: "pandas",
+        filePath: "logos/pandas.svg",
+        url: "https://pandas.pydata.org/",
+    },
+    {
+        name: "Jupyter",
+        alt: "jupyter",
+        filePath: "logos/jupyter.svg",
+        url: "https://jupyter.org/",
+    },
+    // ---------------------------------------------------
+    {
+        name: "Docker",
+        alt: "docker",
+        filePath: "logos/docker.svg",
+        url: "https://www.docker.com/",
+    },
+    {
+        name: "Nginx",
+        alt: "nginx",
+        filePath: "logos/nginx.svg",
+        url: "https://www.nginx.com/",
+    },
+    {
+        name: "Node.js",
+        alt: "nodejs",
+        filePath: "logos/nodejs.svg",
+        url: "https://nodejs.org/",
+    },
+    {
+        name: "Next.js",
+        alt: "nextjs",
+        filePath: "logos/nextjs.svg",
+        url: "https://nextjs.org/",
+    },
+    {
+        name: "Socket.IO",
+        alt: "socketio",
+        filePath: "logos/socketio.svg",
+        url: "https://socket.io/",
+    },
+    {
+        name: "GraphQL",
+        alt: "graphql",
+        filePath: "logos/graphql.svg",
+        url: "https://graphql.org/",
+    },
+    {
+        name: "React",
+        alt: "react",
+        filePath: "logos/react.svg",
+        url: "https://reactjs.org/",
+    },
+    {
+        name: "Tailwind",
+        alt: "tailwind",
+        filePath: "logos/tailwind.svg",
+        url: "https://tailwindcss.com/",
+    },
+];
+
+const socials = [
+    // {
+    //     name: "pesfahanian96@gmail.com",
+    //     link: "mailto:pesfahanian96@gmail.com",
+    //     icon: <BsFillEnvelopeFill />,
+    // },
     {
         name: "GitHub",
         link: "https://github.com/pesfahanian",
         icon: <BsGithub />,
     },
-    {
-        name: "LinkedIn",
-        link: "http://www.linkedin.com/in/parsa-esfahanian",
-        icon: <BsLinkedin />,
-    },
+    // {
+    //     name: "LinkedIn",
+    //     link: "http://www.linkedin.com/in/parsa-esfahanian",
+    //     icon: <BsLinkedin />,
+    // },
     {
         name: "Google Scholar",
         link: "https://scholar.google.com/citations?user=wiwJd8oAAAAJ&hl=en",
@@ -117,5 +332,6 @@ const socials = [
 module.exports = {
     experiences,
     publications,
+    tech,
     socials,
 };
