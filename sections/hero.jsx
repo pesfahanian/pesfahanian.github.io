@@ -47,10 +47,26 @@ export default function Hero() {
                                lg:flex-row"
                     >
                         <GoTo id={"about"} text={"About"} />
+                        &#9679;
                         <GoTo id={"experience"} text={"Experience"} />
-                        <GoTo id={"publications"} text={"Publications"} />
+                        &#9679;
                         <GoTo id={"tech"} text={"Tech"} />
+                        &#9679;
                         <GoTo id={"socials"} text={"Socials"} />
+                    </div>
+                    <div
+                        class="flex
+                               flex-row
+                               mt-2
+                               items-center
+                               justify-center
+                               lg:flex-row"
+                    >
+                        <GoTo id={"publications"} text={"Publications"} />
+                        &#9679;
+                        <GoTo id={"hnh"} text={"Honors & Awards"} />
+                        &#9679;
+                        <GoTo id={"certifications"} text={"Certification"} />
                     </div>
                 </div>
             }

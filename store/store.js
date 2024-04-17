@@ -1,4 +1,4 @@
-import { BsGithub, BsGoogle } from "react-icons/bs";
+import { BsGithub, BsGoogle, BsLinkedin } from "react-icons/bs";
 
 const experiences = [
     {
@@ -8,14 +8,16 @@ const experiences = [
         position: "Senior Backend Developer",
         type: "Full-Time",
         duration: "March 2023 - Present",
+        site: "On-Site",
     },
     {
         company: "Tipax",
         website: "https://tipaxco.com/",
         location: "Tehran, Iran",
-        position: "Data Analyst",
+        position: "Data Consultant",
         type: "Contract",
         duration: "August 2023 - Present",
+        site: "Remote",
     },
     {
         company: "Zarrino",
@@ -24,6 +26,7 @@ const experiences = [
         position: "Senior Backend Developer",
         type: "Full-Time",
         duration: "September 2021 - March 2023",
+        site: "On-Site",
     },
     {
         company: "YAS Group",
@@ -32,8 +35,8 @@ const experiences = [
         position: "Backend Developer",
         type: "Full-Time",
         duration: "December 2020 - September 2021",
+        site: "On-Site",
     },
-
     {
         company: "Logistic Bazaar",
         website: "https://itlogisticbazaar.ir/",
@@ -41,6 +44,7 @@ const experiences = [
         position: "Computer Vision Engineer",
         type: "Part-Time",
         duration: "September 2019 - March 2020",
+        site: "On-Site",
     },
     {
         company: "Magfa Information Technology Development Center",
@@ -49,6 +53,7 @@ const experiences = [
         position: "Network Engineer",
         type: "Internship",
         duration: "June 2017 - August 2017",
+        site: "On-Site",
     },
     {
         company: "Institute for Research in Fundamental Sciences (IPM)",
@@ -57,14 +62,16 @@ const experiences = [
         position: "Machine Learning Researcher",
         type: "Part-Time",
         duration: "March 2018 - March 2023",
+        site: "Hybrid",
     },
     {
         company: "MetaOptima Technology Inc.",
         website: "https://www.metaoptima.com/",
         location: "Vancouver, Canada",
         position: "Researcher",
-        type: "Remote Internship",
+        type: "Internship",
         duration: "September 2019 - October 2020",
+        site: "Remote",
     },
 ];
 
@@ -72,7 +79,7 @@ const publications = [
     {
         name: "MeDerm: Deep Learning Framework for Automated Screening of Melanoma from Dermoscopic Images",
         paper: "https://www.ksmoconference.org/html/",
-        journal: "Korean Society of Medical Oncology Conference 2022",
+        journal: "KSMO Conference 2022",
         website: "https://www.ksmoconference.org/html/",
     },
     {
@@ -105,6 +112,53 @@ const publications = [
         paper: "https://ieeexplore.ieee.org/abstract/document/8806970",
         journal: "Design Automation Conference 2019",
         website: "https://www.dac.com/About/Conference-Archive/56th-DAC-2019",
+    },
+];
+
+const honorsAndAwards = [
+    {
+        title: "Lecturer",
+        description: "Loop Academy AI for Medical Image Diagnosis Course",
+        year: 2019,
+    },
+    {
+        title: "Best Paper Award",
+        description:
+            "Artificial Intelligence in Medical Imaging 2019 Conference",
+        year: 2019,
+    },
+    {
+        title: "Lecturer",
+        description:
+            "10th IPM-HPC Workshop on Multi-core Systems and Parallel Platforms",
+        year: 2019,
+    },
+];
+
+const certifications = [
+    {
+        title: "9th IPM-HPC Workshop on Multi-core Systems and Graphic Processors",
+        year: "Summer 2019",
+    },
+    {
+        title: "The Sharif Spring School on AI: Philosophy, Ethics & Society",
+        year: "Spring 2019",
+    },
+    {
+        title: "IPM Advanced Data Science Summer School (ADS)",
+        year: "Summer 2018",
+    },
+    {
+        title: "University of Tehran Deep Learning Summer School (UTDLSS)",
+        year: "Summer 2018",
+    },
+    {
+        title: "IPM Elementary Data Science Summer School (EDS3)",
+        year: "Summer 2018",
+    },
+    {
+        title: "7th IPM-HPC Workshop on Multi-core Systems and GPU and It's Application in HPC",
+        year: "Winter 2017",
     },
 ];
 
@@ -307,21 +361,16 @@ const tech = [
 ];
 
 const socials = [
-    // {
-    //     name: "pesfahanian96@gmail.com",
-    //     link: "mailto:pesfahanian96@gmail.com",
-    //     icon: <BsFillEnvelopeFill />,
-    // },
     {
         name: "GitHub",
         link: "https://github.com/pesfahanian",
         icon: <BsGithub />,
     },
-    // {
-    //     name: "LinkedIn",
-    //     link: "http://www.linkedin.com/in/parsa-esfahanian",
-    //     icon: <BsLinkedin />,
-    // },
+    {
+        name: "LinkedIn",
+        link: "http://www.linkedin.com/in/parsa-esfahanian",
+        icon: <BsLinkedin />,
+    },
     {
         name: "Google Scholar",
         link: "https://scholar.google.com/citations?user=wiwJd8oAAAAJ&hl=en",
@@ -332,6 +381,8 @@ const socials = [
 module.exports = {
     experiences,
     publications,
+    honorsAndAwards,
+    certifications,
     tech,
     socials,
 };

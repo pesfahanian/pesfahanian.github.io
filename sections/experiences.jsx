@@ -11,7 +11,6 @@ export default function Experiences({ id }) {
             content={
                 <div>
                     <SectionHeader title={"Experience"} />
-
                     {experiences.map((item, index) => {
                         return (
                             <Experience
@@ -21,6 +20,7 @@ export default function Experiences({ id }) {
                                 position={item.position}
                                 type={item.type}
                                 duration={item.duration}
+                                site={item.site}
                             />
                         );
                     })}

@@ -5,6 +5,7 @@ export default function Experience({
     position,
     type,
     duration,
+    site,
 }) {
     return (
         <div
@@ -24,14 +25,15 @@ export default function Experience({
         >
             <div class="flex flex-col justify-between lg:flex-row">
                 <span class="mr-4">
-                    <a
-                        href={website}
-                        class="text-2xl
-                               font-bold
-                               text-red"
+                    <h1
+                        class="mr-1
+                                   text-2xl
+                                   font-bold
+                                   text-primary
+                                   dark:text-white"
                     >
-                        {company}
-                    </a>
+                        {position}
+                    </h1>
                 </span>
                 <span class="inline-block align-middle lg:pt-2">
                     <h1
@@ -45,37 +47,33 @@ export default function Experience({
                 </span>
             </div>
 
-            <div class="flex flex-col justify-between lg:flex-row">
-                <span class="mr-4">
-                    <div class="flex flex-row">
-                        <h1
-                            class="mr-1
-                                   text-1xl
-                                   font-bold
-                                   text-primary
-                                   dark:text-white"
-                        >
-                            {position}
-                        </h1>
-                        <h1 class="text-teal">|</h1>
-                        <h1
-                            class="ml-1
-                                   text-1xl
-                                   font-medium
-                                   text-slate-500"
-                        >
-                            {type}
-                        </h1>
+            <div class="flex flex-col lg:flex-row justify-between">
+                <div class="mr-4">
+                    <div class="flex flex-col lg:flex-row mt-2">
+                        <div>
+                            <a
+                                href="{website}"
+                                class="text-1xl font-bold text-red"
+                            >
+                                {company}
+                            </a>
+                        </div>
+                        <span class="hidden sm:inline-block">
+                            <h1 class="text-teal">&nbsp;|&nbsp;</h1>
+                        </span>
+                        <div class="flex flex-row">
+                            <h1 class="text-1xl font-medium text-slate-400">
+                                {type}
+                            </h1>
+                            <h1 class="text-teal">&nbsp;|&nbsp;</h1>
+                            <h1 class="text-1xl font-medium text-slate-500">
+                                {site}
+                            </h1>
+                        </div>
                     </div>
-                </span>
+                </div>
                 <span class="inline-block align-middle lg:pt-2">
-                    <h1
-                        class="text-1xl
-                               font-medium
-                               text-teal"
-                    >
-                        {duration}
-                    </h1>
+                    <h1 class="text-1xl font-medium text-teal">{duration}</h1>
                 </span>
             </div>
         </div>
