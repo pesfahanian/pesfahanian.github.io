@@ -11,7 +11,6 @@ export default function Socials({ id }) {
             content={
                 <div>
                     <SectionHeader title={"Socials"} />
-
                     <div class="flex flex-col gap-4 lg:flex-row">
                         {socials.map((item, index) => {
                             return (

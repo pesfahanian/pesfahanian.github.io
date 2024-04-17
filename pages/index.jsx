@@ -11,8 +11,10 @@ import ScrollToTopButton from "../components/buttons/scroll-to-top";
 
 import About from "../sections/about";
 import Socials from "../sections/socials";
+import Certifications from "../sections/certifications";
 import Experiences from "../sections/experiences";
 import Hero from "../sections/hero";
+import HnH from "../sections/hnh";
 import Publications from "../sections/publications";
 import Tech from "../sections/tech";
 
@@ -31,8 +33,10 @@ export default function Home() {
             <Hero />
             <About id={"about"} />
             <Experiences id={"experience"} />
-            <Publications id={"publications"} />
             <Tech id={"tech"} />
+            <Publications id={"publications"} />
+            <HnH id={"hnh"} />
+            <Certifications id={"certifications"} />
             <Socials id={"socials"} />
 
             <DarkThemeSwitchButton

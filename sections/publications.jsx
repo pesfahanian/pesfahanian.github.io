@@ -11,7 +11,6 @@ export default function Publications({ id }) {
             content={
                 <div>
                     <SectionHeader title={"Publications"} />
-
                     {publications.map((item, index) => {
                         return (
                             <Publication
