@@ -52,7 +52,7 @@ export default function Experience({
                     <div class="flex flex-col lg:flex-row mt-2">
                         <div>
                             <a
-                                href="{website}"
+                                href={website}
                                 class="text-1xl font-bold text-red"
                             >
                                 {company}
