@@ -64,24 +64,24 @@ export default function About({ id }) {
                                             !
                                         </h2>
                                         <p class="mb-2">
-                                            I have a Bachelor of Science in in
-                                            Applied Mathematics and a Mater of
-                                            Science in Computer Science.
+                                            I have a{" "}
+                                            <span class="font-extrabold">
+                                                Bachelor of Science in Applied
+                                                Mathematics
+                                            </span>{" "}
+                                            and a{" "}
+                                            <span class="font-extrabold">
+                                                Master of Science in Computer
+                                                Science
+                                            </span>
+                                            .
                                         </p>
                                         <p class="mb-2">
-                                            {" "}
-                                            I am a Backend Developer currently
-                                            in between projects. Some of the
-                                            technologies that I work with are
-                                            Python, Django, FastAPI, Celery,
-                                            PostgreSQL, MongoDB, RabbitMQ,
-                                            Redis, and Docker.
-                                        </p>
-                                        <p class="mb-2">
-                                            {" "}
-                                            I spent 5 years as a Machine
-                                            Learning Researcher focusing on
-                                            Medical Imaging at the{" "}
+                                            I spent 5 years as a{" "}
+                                            <span class="font-extrabold">
+                                                Machine Learning Researcher
+                                            </span>{" "}
+                                            focusing on Medical Imaging at the{" "}
                                             <a
                                                 href="https://hpc.ipm.ac.ir/"
                                                 class="text-red hover:text-teal"
@@ -89,9 +89,35 @@ export default function About({ id }) {
                                                 High-Performance Computing (HPC){" "}
                                             </a>
                                             laboratory of the Department of
-                                            Computer Science, Institute for
-                                            Research in Fundamental Sciences
-                                            (IPM).
+                                            Computer Science,{" "}
+                                            <a
+                                                href="http://www.ipm.ac.ir/"
+                                                class="text-red hover:text-teal"
+                                            >
+                                                Institute for Research in
+                                                Fundamental Sciences (IPM)
+                                            </a>
+                                            .
+                                        </p>
+                                        <p class="mb-2">
+                                            I am also a{" "}
+                                            <span class="font-extrabold">
+                                                Backend Developer
+                                            </span>{" "}
+                                            working with{" "}
+                                            <a
+                                                onClick={() =>
+                                                    document
+                                                        .getElementById("tech")
+                                                        .scrollIntoView({
+                                                            behavior: "smooth",
+                                                        })
+                                                }
+                                                class="cursor-pointer font-extrabold text-red hover:text-teal"
+                                            >
+                                                This
+                                            </a>{" "}
+                                            tech stack.
                                         </p>
                                         <p class="mb-2">
                                             {" "}

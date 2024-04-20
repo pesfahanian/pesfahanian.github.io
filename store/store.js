@@ -7,7 +7,7 @@ const experiences = [
         location: "Tehran, Iran",
         position: "Senior Backend Developer",
         type: "Full-Time",
-        duration: "March 2023 - Present",
+        duration: "March 2023 - April 2024",
         site: "On-Site",
     },
     {
@@ -16,7 +16,7 @@ const experiences = [
         location: "Tehran, Iran",
         position: "Data Consultant",
         type: "Contract",
-        duration: "August 2023 - Present",
+        duration: "August 2023 - March 2024",
         site: "Remote",
     },
     {
