@@ -40,11 +40,7 @@ export default function HnHs({ title, description, year }) {
                             {description}
                         </h1>
                         <h1 class="text-teal">&nbsp;|&nbsp;</h1>
-                        <h1
-                            class="text-1xl
-                               font-medium
-                               text-teal"
-                        >
+                        <h1 class="text-1xl font-medium text-primary dark:text-slate-400">
                             {year}
                         </h1>
                     </div>
