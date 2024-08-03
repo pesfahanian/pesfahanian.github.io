@@ -116,6 +116,11 @@ const publications = [
 ];
 
 const honorsAndAwards = [
+    // {
+    //     title: "Top-5 Selected",
+    //     description: "StarHub Startup Competition",
+    //     year: 2020,
+    // },
     {
         title: "Lecturer",
         description: "Loop Academy AI for Medical Image Diagnosis Course",
@@ -366,11 +371,11 @@ const socials = [
         link: "https://github.com/pesfahanian",
         icon: <BsGithub />,
     },
-    {
-        name: "LinkedIn",
-        link: "http://www.linkedin.com/in/parsa-esfahanian",
-        icon: <BsLinkedin />,
-    },
+    // {
+    //     name: "LinkedIn",
+    //     link: "http://www.linkedin.com/in/parsa-esfahanian",
+    //     icon: <BsLinkedin />,
+    // },
     {
         name: "Google Scholar",
         link: "https://scholar.google.com/citations?user=wiwJd8oAAAAJ&hl=en",
