@@ -54,7 +54,7 @@ export default function Hero() {
                         &#9679;
                         <GoTo id={"socials"} text={"Socials"} />
                     </div>
-                    <div
+                    {/* <div
                         class="flex
                                flex-row
                                mt-2
@@ -67,7 +67,7 @@ export default function Hero() {
                         <GoTo id={"hnh"} text={"Honors & Awards"} />
                         &#9679;
                         <GoTo id={"certifications"} text={"Certification"} />
-                    </div>
+                    </div> */}
                 </div>
             }
         />

@@ -2,6 +2,15 @@ import { BsGithub, BsGoogle, BsLinkedin } from "react-icons/bs";
 
 const experiences = [
     {
+        company: "HamrahTel",
+        website: "https://hamrahtel.com/",
+        location: "Tehran, Iran",
+        position: "Senior Backend Developer",
+        type: "Contract",
+        duration: "April 2024 - Present",
+        site: "Hybrid",
+    },
+    {
         company: "SnappFood",
         website: "https://snappfood.ir/",
         location: "Tehran, Iran",

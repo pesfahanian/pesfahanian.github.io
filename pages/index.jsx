@@ -34,9 +34,9 @@ export default function Home() {
             <About id={"about"} />
             <Experiences id={"experience"} />
             <Tech id={"tech"} />
-            <Publications id={"publications"} />
-            <HnH id={"hnh"} />
-            <Certifications id={"certifications"} />
+            {/* <Publications id={"publications"} /> */}
+            {/* <HnH id={"hnh"} /> */}
+            {/* <Certifications id={"certifications"} /> */}
             <Socials id={"socials"} />
 
             <DarkThemeSwitchButton

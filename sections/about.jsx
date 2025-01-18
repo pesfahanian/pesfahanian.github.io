@@ -81,7 +81,8 @@ export default function About({ id }) {
                                             <span class="font-extrabold">
                                                 Machine Learning Researcher
                                             </span>{" "}
-                                            focusing on Medical Imaging at the{" "}
+                                            focusing on Artificial Intelligence
+                                            for Medical Imaging at the{" "}
                                             <a
                                                 href="https://hpc.ipm.ac.ir/"
                                                 class="text-red hover:text-teal"
@@ -89,7 +90,7 @@ export default function About({ id }) {
                                                 High-Performance Computing (HPC){" "}
                                             </a>
                                             laboratory of the Department of
-                                            Computer Science,{" "}
+                                            Computer Science at the{" "}
                                             <a
                                                 href="http://www.ipm.ac.ir/"
                                                 class="text-red hover:text-teal"
@@ -100,7 +101,7 @@ export default function About({ id }) {
                                             .
                                         </p>
                                         <p class="mb-2">
-                                            I am also a{" "}
+                                            I am a{" "}
                                             <span class="font-extrabold">
                                                 Backend Developer
                                             </span>{" "}
