@@ -1,5 +1,7 @@
 import GoTo from "../components/go-to";
 import Section from "../components/section";
+import { socials } from "../store/store";
+import Social from "../components/social";
 
 export default function Hero() {
     return (
@@ -31,14 +33,26 @@ export default function Hero() {
                                    lg:flex-row
                                    lg:text-3xl"
                         >
-                            <span class="px-2">Backend Developer</span>
-                            <span class="px-2">
-                                Machine Learning Researcher
-                            </span>
+                            {/* <span class="px-2">Backend Developer</span> */}
+                            {/* <span class="px-2">Developer and Researcher</span> */}
+                            {/* <span class="px-2">
+                                Researcher
+                            </span> */}
                         </p>
                     </div>
+                    <div class="flex flex-col gap-4 lg:flex-row">
+                        {socials.map((item, index) => {
+                            return (
+                                <Social
+                                    name={item.name}
+                                    link={item.link}
+                                    icon={item.icon}
+                                />
+                            );
+                        })}
+                    </div>
 
-                    <div
+                    {/* <div
                         class="flex
                                flex-row
                                mt-8
@@ -53,7 +67,7 @@ export default function Hero() {
                         <GoTo id={"tech"} text={"Tech"} />
                         &#9679;
                         <GoTo id={"socials"} text={"Socials"} />
-                    </div>
+                    </div> */}
                     {/* <div
                         class="flex
                                flex-row

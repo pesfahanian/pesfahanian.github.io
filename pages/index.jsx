@@ -31,19 +31,19 @@ export default function Home() {
             </Head>
 
             <Hero />
-            <About id={"about"} />
-            <Experiences id={"experience"} />
-            <Tech id={"tech"} />
+            {/* <About id={"about"} /> */}
+            {/* <Experiences id={"experience"} /> */}
+            {/* <Tech id={"tech"} /> */}
             {/* <Publications id={"publications"} /> */}
             {/* <HnH id={"hnh"} /> */}
             {/* <Certifications id={"certifications"} /> */}
-            <Socials id={"socials"} />
+            {/* <Socials id={"socials"} /> */}
 
             <DarkThemeSwitchButton
                 darkMode={darkMode}
                 setDarkMode={setDarkMode}
             />
-            <ScrollToTop
+            {/* <ScrollToTop
                 smooth
                 style={{
                     display: "flex",
@@ -52,7 +52,7 @@ export default function Home() {
                     background: "#00D1B2",
                 }}
                 component={<ScrollToTopButton />}
-            />
+            /> */}
         </div>
     );
 }
