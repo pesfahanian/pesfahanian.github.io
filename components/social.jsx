@@ -12,10 +12,10 @@ export default function Social({ name, link, icon }) {
                            bg-slate-200
                            text-primary
                            hover:scale-105
-                           hover:bg-slate-400
+                           hover:bg-teal
                            dark:bg-secondary
                            dark:hover:bg-gray
-                           hover:text-red
+                           hover:text-primary
                            dark:text-white
                            dark:hover:text-teal"
                 >
